@@ -1,0 +1,30 @@
+<header class="header">
+  <div class="logo">
+    <a href="#hero">Jelle Vandebroek</a>
+  </div>
+
+  <nav class="nav-links">
+    <a href="#hero" [class.active]="activeSection === 'hero'" (click)="scrollToSection($event, 'hero')">Home</a>
+    <a href="#about" [class.active]="activeSection === 'about'" (click)="scrollToSection($event, 'about')">About</a>
+    <a href="#experience" [class.active]="activeSection === 'experience'" (click)="scrollToSection($event, 'experience')">Experience</a>
+    <a href="#projects" [class.active]="activeSection === 'projects'" (click)="scrollToSection($event, 'projects')">Projects</a>
+    <a href="#contact" [class.active]="activeSection === 'contact'" (click)="scrollToSection($event, 'contact')">Contact</a>
+  </nav>
+
+  <div class="toggles">
+    <!-- Dark Mode Toggle -->
+    <button (click)="toggleDarkMode()">
+      {{ isDarkMode ? '🌙' : '☀️' }}
+    </button>
+
+    <!-- Language Toggle -->
+    <div class="language-dropdown">
+      <label for="language-select" class="label">Select language</label>
+      <select id="language-select" [value]="currentLang" (change)="onLanguageChange($event)">
+        <option *ngFor="let lang of availableLanguages" [value]="lang">
+          {{ lang.toUpperCase() }}
+        </option>
+      </select>
+    </div>
+  </div>
+</header>

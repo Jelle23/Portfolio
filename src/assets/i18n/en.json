@@ -1,0 +1,8 @@
+{
+  "hero": {
+    "button": "See projects",
+    "greeting": "Hi, I'm Jelle",
+    "role": "Frontend Developer",
+    "description": "I build web apps with Angular, Vue, React."
+  }
+}

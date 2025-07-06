@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+html {
+  scroll-behavior: smooth;
+}
+/* ============================================
+   Light Theme (Default)
+   ============================================ */
+:root {
+    --color-bg: #f9fafb;
+    --color-surface: #ffffff;
+    --color-text: #1f2937;
+    --color-muted: #6b7280;
+    --color-accent: #3b82f6;
+
+    --button-bg: #3b82f6;
+    --button-bg-hover: #2563eb;
+    --button-text: #ffffff;
+
+    --input-bg: #ffffff;
+    --input-border: #d1d5db;
+    --input-text: #111827;
+
+    --header-bg: #ffffff;
+    --text-color: #1f2937;
+    --primary-color: #007acc;
+
+    --card-bg: #ffffff;
+    --card-border: #e5e7eb;
+}
+
+/* ============================================
+   Dark Theme (applied via .dark-mode on <body>)
+   ============================================ */
+body.dark-mode {
+    --color-bg: #181a1b;
+    --color-surface: #242526;
+    --color-text: #f3f4f6;
+    --color-muted: #9ca3af;
+    --color-accent: #60a5fa;
+
+    --button-bg: #2563eb;
+    --button-bg-hover: #3b82f6;
+    --button-text: #ffffff;
+
+    --input-bg: #2c2f33;
+    --input-border: #444;
+    --input-text: #f3f4f6;
+
+    --header-bg: #242526;
+    --text-color: #f3f4f6;
+    --primary-color: #60a5fa;
+
+    --card-bg: #1f1f1f;
+    --card-border: #333;
+}

@@ -1,0 +1,8 @@
+{
+  "hero": {
+    "button": "Bekijk projecten",
+    "greeting": "Hallo, ik ben Jelle",
+    "role": "Frontend Ontwikkelaar",
+    "description": "Ik bouw webapps met Angular, Vue, React."
+  }
+}
