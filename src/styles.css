@@ -16,10 +16,10 @@ html {
     --color-text: #1f2937;
     --color-muted: #6b7280;
     --color-accent: #3b82f6;
+    --color-primary-hover: #2980b9;
+    --color-primary-active: #1c5986;
 
-    --button-bg: #3b82f6;
     --button-bg-hover: #2563eb;
-    --button-text: #ffffff;
 
     --input-bg: #ffffff;
     --input-border: #d1d5db;
@@ -42,10 +42,10 @@ body.dark-mode {
     --color-text: #f3f4f6;
     --color-muted: #9ca3af;
     --color-accent: #60a5fa;
+    --color-primary-hover: #2980b9;
+    --color-primary-active: #1c5986;
 
-    --button-bg: #2563eb;
     --button-bg-hover: #3b82f6;
-    --button-text: #ffffff;
 
     --input-bg: #2c2f33;
     --input-border: #444;

@@ -1,0 +1,117 @@
+.experience {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.experience-container {
+  max-width: 100%;
+  width: 100%;
+}
+
+.experience h2 {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  color: var(--primary-color);
+}
+
+.timeline-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 100%;
+    height: 160px;
+    position: relative;
+}
+
+.timeline-wrapper {
+  flex-grow: 1;
+  overflow: hidden;
+  cursor: grab;
+  padding: 20px 0;
+  position: relative;
+}
+
+.timeline-wrapper:active {
+  cursor: grabbing;
+}
+
+.timeline {
+  position: relative;
+  width: 2250px;
+  height: 600px;
+  border-top: 5px solid var(--color-border);
+  user-select: none;
+}
+
+.timeline-event {
+  position: absolute;
+  min-width: 150px;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  border: 2px solid var(--color-text);
+  box-sizing: border-box;
+}
+
+.timeline-content {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid var(--color-border);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  user-select: text;
+}
+
+.timeline-content:hover {
+  background-color: var(--color-bg-hover);
+  color: var(--color-text-hover);
+  border-color: var(--color-border-hover);
+}
+
+.arrow {
+  background: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 18px;
+  user-select: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow:hover {
+  background: var(--color-primary-hover);
+}
+
+.arrow:active {
+  background: var(--color-primary-active);
+}
+
+.left {
+  margin-right: 10px;
+}
+
+.right {
+  margin-left: 10px;
+}

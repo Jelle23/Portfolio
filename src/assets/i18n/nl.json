@@ -3,6 +3,81 @@
     "button": "Bekijk projecten",
     "greeting": "Hallo, ik ben Jelle",
     "role": "Frontend Ontwikkelaar",
-    "description": "Ik bouw webapps met Angular, Vue, React."
+    "description": "Ik ontwikkel responsieve, goed gestructureerde webapplicaties met Angular, Vue en React, met focus op duidelijke code en betekenisvolle gebruikerservaringen."
+  },
+
+  "header": {
+    "home": "Home",
+    "about": "Over",
+    "experience": "Ervaring",
+    "projects": "Projecten",
+    "contact": "Contacteer"
+  },
+
+  "about": {
+    "title": "Over Mij",
+    "description": "Ik ben een frontend developer met een passie voor het bouwen van responsieve en interactieve webapplicaties.",
+    "age": "Leeftijd",
+    "location": "Locatie",
+    "stack": "Tech Stack",
+    "strength": "Sterkte"
+  },
+
+  "skills": {
+    "Jelle": "Jelle",
+    "Frontend": "Frontend",
+    "JavaScript": "JavaScript",
+    "HTML": "HTML",
+    "CSS": "CSS",
+    "Frameworks": "Frameworks",
+    "Vue": "Vue.js",
+    "Angular": "Angular",
+    "React": "React",
+    "Soft Skills": "Soft Skills",
+    "Communication": "Communicatie",
+    "Flexible": "Flexibel",
+    "Adaptability": "Aanpassingsvermogen",
+    "Design": "Design",
+    "Photoshop": "Photoshop",
+    "Illustrator": "Illustrator",
+    "Adobe XD": "Adobe XD",
+    "Premiere Pro": "Premiere Pro",
+    "Personal": "Persoonlijk",
+    "U6 Coach": "U6-ploeg trainer",
+    "Leeftijd": "22 jaar",
+    "Koersel": "Koersel"
+  },
+
+  "experience": {
+    "title": "Ervaring",
+    "description": "Ontdek mijn recente ontwikkeling in webontwikkeling vanaf 2020. Beginnend met het beheersen van de basis van HTML, CSS en JavaScript, gevolgd door projecten met Vue, WordPress en PHP in 2022, en afgesloten met praktijkervaring in Angular tijdens mijn stage in 2024. Deze tijdlijn laat zien hoe mijn vaardigheden zijn gegroeid en zich hebben aangepast aan de veranderende technologie."
+  },
+
+  "projects": {
+    "title": "Projecten",
+    "description": "In deze sectie vind je een selectie van persoonlijke en academische projecten die mijn passie voor ontwikkeling, design en probleemoplossend denken weerspiegelen. Elk project toont een unieke combinatie van technologieën en vaardigheden, van frontend frameworks zoals Angular en Vue tot dynamische datavisualisaties met D3. Deze projecten benadrukken niet alleen mijn technische expertise, maar ook mijn vermogen om ideeën om te zetten in volledig functionele en gebruiksvriendelijke oplossingen. Klik op een project om meer details te ontdekken, screenshots te bekijken en de broncode op GitHub te openen.",
+    "portfolio": {
+      "title": "Portfolio Website",
+      "description": "Een interactieve en visueel aantrekkelijke portfolio met een tijdlijn, projectoverzicht, dark mode en meertalige ondersteuning.",
+      "modalDescription": "Dit portfolio is gebouwd met Angular en ontworpen om mijn vaardigheden, projecten en ervaring op een gestructureerde en visueel aantrekkelijke manier te tonen. De website bevat een interactieve tijdlijn, een dynamische mindmap van mijn skillset (aangestuurd door D3.js), en een overzicht van projecten. Er is ondersteuning voor meerdere talen (Nederlands en Engels) en een automatische themawisseling tussen licht- en donkermodus. De structuur is modulair opgezet met herbruikbare Angular components voor optimale onderhoudbaarheid."
+    },
+    "expense-tracker": {
+      "title": "Expense Tracker",
+      "description": "Een lokale budgetbeheer-app waarmee gebruikers inkomsten en uitgaven kunnen bijhouden en financiële doelen stellen.",
+      "modalDescription": "Deze Expense Tracker is een Angular-app waarmee je je persoonlijke financiën overzichtelijk kunt beheren. Gebruikers kunnen transacties toevoegen, filteren op maand of categorie, en doelen instellen zoals sparen voor een huis of reis. Alle gegevens worden veilig lokaal opgeslagen via LocalStorage. De voortgang naar financiële doelen wordt visueel weergegeven met dynamische voortgangsbalken die van kleur veranderen op basis van het percentage voltooid. Het project is gebouwd met standalone Angular components en volgt een modulaire structuur."
+    },
+    "U6-Trainer": {
+      "title": "U6-Coaching",
+      "description": "Een coachingtool voor U6-voetbaltrainers waarmee oefeningen, teamsamenstellingen en prestaties gemakkelijk beheerd kunnen worden.",
+      "modalDescription": "Deze Angular-app is specifiek ontworpen om jeugdvoetbalcoaches (U6) te ondersteunen bij het plannen van trainingen, het bijhouden van oefenreeksen en het volgen van individuele voortgang. Coaches kunnen oefeningen aanmaken, spelersprofielen beheren en feedback noteren. De focus ligt op eenvoud, snelheid en offline bruikbaarheid. Dit project ontstond vanuit een persoonlijke betrokkenheid bij jeugdcoaching en is gericht op praktische bruikbaarheid op het veld."
+    },
+    "Graduaatsproef": {
+      "title": "Graduaatsproef: Blazor-Project",
+      "description": "Een fullstack webapplicatie ontwikkeld in Blazor WebAssembly als afstudeerproject, met focus op componentstructuur, REST-communicatie en .NET-integratie.",
+      "modalDescription": "Voor mijn graduaatsproef ontwikkelde ik een webapplicatie met Blazor WebAssembly. Het project toont hoe frontendcomponenten in Blazor efficiënt samenwerken met een .NET-backend via REST-API’s. Functionaliteiten omvatten onder meer gebruikersbeheer, data-invoer en livevalidatie. Dit project illustreert mijn vaardigheden met moderne .NET-technologieën en mijn vermogen om schaalbare, maintainable oplossingen te bouwen binnen een fullstack .NET-ecosysteem."
+    },
+    "modal": {
+      "close": "Sluiten"
+    }
   }
 }

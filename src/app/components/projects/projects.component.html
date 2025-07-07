@@ -1,1 +1,34 @@
-<p>projects works!</p>
+<section id="projects" class="projects">
+  <div class="projects-container">
+    <h2>{{ 'projects.title' | translate }}</h2>
+    <p>{{ 'projects.description' | translate }}</p>
+
+    <div class="projects-grid">
+      <div class="project-card" *ngFor="let project of projects" (click)="openModal(project)">
+        <div class="project-header">
+          <h2>{{ project.title | translate }}</h2>
+        </div>
+        <p class="description">{{ project.description | translate }}</p>
+        <ul class="tech-list">
+          <li *ngFor="let tech of project.tech">{{ tech }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-overlay" *ngIf="selectedProject" (click)="closeModal()">
+    <div class="modal" (click)="$event.stopPropagation()">
+        <img *ngIf="selectedProject.imageUrl" [src]="selectedProject.imageUrl" alt="Screenshot"/>
+        <h2>{{ selectedProject.title | translate }}</h2>
+        <p>{{ selectedProject.modalDescription | translate }}</p>
+        <ul class="tech">
+            <li *ngFor="let tech of selectedProject.tech">{{ tech }}</li>
+        </ul>
+        <a *ngIf="selectedProject.githubUrl" [href]="selectedProject.githubUrl" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <button (click)="closeModal()">
+            {{ 'projects.modal.close' | translate }}
+        </button>
+    </div>
+  </div>
+</section>

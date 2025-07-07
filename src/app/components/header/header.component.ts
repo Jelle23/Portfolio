@@ -2,11 +2,12 @@ import { Component, HostListener } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { LanguageService } from '../../services/language.service';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [RouterModule, CommonModule],
+  imports: [RouterModule, CommonModule, TranslateModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })

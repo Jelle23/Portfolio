@@ -3,6 +3,82 @@
     "button": "See projects",
     "greeting": "Hi, I'm Jelle",
     "role": "Frontend Developer",
-    "description": "I build web apps with Angular, Vue, React."
+    "description": "I develop responsive, well-structured web apps using Angular, Vue, and React, focused on delivering clean code and meaningful user experiences."
+  },
+
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "about": {
+    "title": "About Me",
+    "description": "I'm a frontend developer passionate about building responsive and interactive web applications.",
+    "age": "Age",
+    "location": "Location",
+    "stack": "Tech Stack",
+    "strength": "Strength"
+  },
+
+  "skills": {
+    "Jelle": "Jelle",
+    "Frontend": "Frontend",
+    "JavaScript": "JavaScript",
+    "HTML": "HTML",
+    "CSS": "CSS",
+    "Frameworks": "Frameworks",
+    "Vue": "Vue.js",
+    "Angular": "Angular",
+    "React": "React",
+    "Soft Skills": "Soft Skills",
+    "Communication": "Communication",
+    "Flexible": "Flexible",
+    "Adaptability": "Adaptability",
+    "Design": "Design",
+    "Photoshop": "Photoshop",
+    "Illustrator": "Illustrator",
+    "Adobe XD": "Adobe XD",
+    "Premiere Pro": "Premiere Pro",
+    "Personal": "Personal",
+    "U6 Coach": "U6 Coach",
+    "Leeftijd": "22 years",
+    "Koersel": "Koersel"
+  },
+
+  "experience": {
+    "title": "Experience",
+    "description": "Dive into my recent journey in web development starting from 2020. Beginning with mastering the fundamentals of HTML, CSS, and JavaScript, progressing through building projects with Vue, WordPress, and PHP in 2022, and culminating with hands-on experience in Angular during my 2024 internship. This timeline showcases how my skills have grown and adapted with the evolving tech landscape."
+  },
+
+  "projects": {
+    "title": "Projects",
+    "description": "This section showcases a selection of personal and academic projects that reflect my passion for development, design, and problem-solving. Each project demonstrates a unique combination of technologies and skills, from frontend frameworks like Angular and Vue to dynamic data visualizations using D3. These projects not only highlight my technical proficiency but also my ability to turn ideas into fully functional, user-friendly solutions. Click on any project to explore more details, view screenshots, and access the source code on GitHub.",
+    "portfolio": {
+      "title": "Portfolio Website",
+      "description": "An interactive and visually appealing portfolio featuring a timeline, project showcase, dark mode, and multilingual support.",
+      "modalDescription": "This portfolio was built with Angular and designed to present my skills, projects, and experience in a structured and visually engaging way. It includes an interactive timeline, a dynamic mind map of my skillset powered by D3.js, and a dedicated project overview. The site supports multiple languages (Dutch and English) and features automatic theme switching between light and dark mode. The structure is modular, built with reusable Angular components to ensure maintainability."
+    },
+    "expense-tracker": {
+      "title": "Expense Tracker",
+      "description": "A local budget management app that allows users to track income and expenses, and set financial goals.",
+      "modalDescription": "This Expense Tracker is an Angular app designed to help you manage your personal finances clearly and efficiently. Users can add transactions, filter by month or category, and set goals such as saving for a house or a trip. All data is securely stored locally using LocalStorage. Progress toward financial goals is visually represented through dynamic progress bars that change color based on completion percentage. The project is built with standalone Angular components and follows a modular architecture."
+    },
+    "U6-Trainer": {
+      "title": "U6-Coaching",
+      "description": "A coaching tool for U6 soccer trainers to easily manage exercises, team compositions, and performance tracking.",
+      "modalDescription": "This Angular app is specifically designed to support youth soccer coaches (U6) in planning training sessions, maintaining exercise routines, and tracking individual progress. Coaches can create drills, manage player profiles, and record feedback. The focus is on simplicity, speed, and offline usability. This project was born from personal involvement in youth coaching and is built for practical use on the field."
+    },
+    "Graduaatsproef": {
+      "title": "Thesis Project: Blazor",
+      "description": "A full-stack web application developed in Blazor WebAssembly as a graduation project, focused on component architecture, REST communication, and .NET integration.",
+      "modalDescription": "For my graduation project, I developed a web application using Blazor WebAssembly. The project demonstrates how frontend components in Blazor efficiently communicate with a .NET backend via REST APIs. Features include user management, data entry, and live validation. This project showcases my skills with modern .NET technologies and my ability to build scalable, maintainable solutions within a full-stack .NET ecosystem."
+    },
+    "modal": {
+      "close": "Close"
+    }
   }
 }
+

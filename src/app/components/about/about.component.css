@@ -1,0 +1,48 @@
+.about {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.about-container {
+  max-width: 100%;
+  width: 100%;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  color: var(--primary-color);
+}
+
+.about p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: var(--color-text);
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+}
+
+.about-list li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  color: var(--color-muted);
+}
+
+.about-list li strong {
+  color: var(--color-text);
+}
+
+::ng-deep .skill-label {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  fill: var(--color-text);
+  pointer-events: none;
+}

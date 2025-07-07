@@ -4,11 +4,11 @@
   </div>
 
   <nav class="nav-links">
-    <a href="#hero" [class.active]="activeSection === 'hero'" (click)="scrollToSection($event, 'hero')">Home</a>
-    <a href="#about" [class.active]="activeSection === 'about'" (click)="scrollToSection($event, 'about')">About</a>
-    <a href="#experience" [class.active]="activeSection === 'experience'" (click)="scrollToSection($event, 'experience')">Experience</a>
-    <a href="#projects" [class.active]="activeSection === 'projects'" (click)="scrollToSection($event, 'projects')">Projects</a>
-    <a href="#contact" [class.active]="activeSection === 'contact'" (click)="scrollToSection($event, 'contact')">Contact</a>
+    <a href="#hero" [class.active]="activeSection === 'hero'" (click)="scrollToSection($event, 'hero')">{{ 'header.home' | translate }}</a>
+    <a href="#about" [class.active]="activeSection === 'about'" (click)="scrollToSection($event, 'about')">{{ 'header.about' | translate }}</a>
+    <a href="#experience" [class.active]="activeSection === 'experience'" (click)="scrollToSection($event, 'experience')">{{ 'header.experience' | translate }}</a>
+    <a href="#projects" [class.active]="activeSection === 'projects'" (click)="scrollToSection($event, 'projects')">{{ 'header.projects' | translate }}</a>
+    <a href="#contact" [class.active]="activeSection === 'contact'" (click)="scrollToSection($event, 'contact')">{{ 'header.contact' | translate }}</a>
   </nav>
 
   <div class="toggles">

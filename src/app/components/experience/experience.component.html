@@ -1,1 +1,38 @@
-<p>experience works!</p>
+<section id="experience" class="experience">
+  <div class="experience-container">
+    <h2>{{ 'experience.title' | translate }}</h2>
+    <p>{{ 'experience.description' | translate }}</p>
+        <div class="timeline-container">
+            <button class="arrow left" (click)="scrollTimeline(-100)">&#8592;</button>
+            
+            <div 
+                #timelineWrapper 
+                class="timeline-wrapper"
+                (mousedown)="startDragging($event)" 
+                (mousemove)="onDrag($event)" 
+                (mouseup)="stopDragging()" 
+                (mouseleave)="stopDragging()"
+
+                (touchstart)="startTouch($event)"
+                (touchmove)="onTouchMove($event)"
+                (touchend)="stopTouch()"
+            >
+                <div class="timeline">
+                <div 
+                    class="timeline-event" 
+                    *ngFor="let event of timelineEvents; let i = index"
+                    [style.left]="calculatePosition(i)"
+                >
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                    <p>{{ event.date }}</p>
+                    <h3>{{ event.title }}</h3>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <button class="arrow right" (click)="scrollTimeline(100)">&#8594;</button>
+        </div>
+    </div>
+</section>

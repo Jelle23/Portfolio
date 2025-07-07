@@ -1,0 +1,160 @@
+.projects {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.projects-container {
+    max-width: 100%;
+    width: 100%;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  color: var(--primary-color);
+}
+
+.projects-grid {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+  background-color: var(--card-bg);
+  border: 2px solid var(--card-border);
+  border-radius: 20px;
+  padding: 20px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  color: var(--color-text);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background-color: var(--color-muted);
+  color: var(--button-text);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-header h2 {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    color: var(--primary-color);
+}
+
+.description {
+  margin: 10px 0;
+  color: var(--color-text);
+}
+
+.tech-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-list li {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  border-radius: 12px;
+  padding: 4px 10px;
+  font-size: 12px;
+  border: 1px solid var(--card-border);
+}
+
+/* Modal Styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal {
+  background-color: var(--card-bg);
+  border: 2px solid var(--card-border);
+  border-radius: 16px;
+  padding: 30px;
+  width: 600px;
+  max-width: 90%;
+  text-align: center;
+  color: var(--color-text);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.modal img {
+  width: 70%;
+  border-radius: 12px;
+}
+
+.modal h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.modal p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.modal ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.modal ul li {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  border-radius: 12px;
+  padding: 4px 10px;
+  font-size: 12px;
+  border: 1px solid var(--card-border);
+}
+
+.modal a {
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: var(--primary-color);
+  color: var(--button-text);
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.modal a:hover {
+  background-color: var(--button-bg-hover);
+}
+
+.modal button {
+  background: none;
+  color: var(--color-muted);
+  border: none;
+  margin-left: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
