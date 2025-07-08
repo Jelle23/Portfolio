@@ -79,5 +79,27 @@
     "modal": {
       "close": "Sluiten"
     }
+  },
+
+  "contact": {
+    "title": "Contacteer Mij",
+    "description": "Heb je een vraag, een idee voor samenwerking of wil je gewoon hallo zeggen? Neem gerust contact op.",
+    "fullname": "Volledige naam",
+    "emailaddress": "E-mailadres",
+    "message": "Typ je bericht...",
+    "address": {
+      "title": "Adres",
+      "street": "Schrikheidestraat 36, Koersel",
+      "country": "België"
+    },    
+    "phone": {
+      "title": "Telefoon",
+      "number": "04 70 08 14 74"
+    },
+    "email": {
+      "title": "Email",
+      "address": "vdbjel@gmail.com"
+    }
   }
+
 }

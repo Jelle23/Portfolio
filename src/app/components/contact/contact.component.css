@@ -1,0 +1,127 @@
+.contact {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contact-container {
+  max-width: 100%;
+  width: 100%;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  color: var(--primary-color);
+}
+
+.contact p {
+  color: var(--color-muted);
+  margin-bottom: 2rem;
+}
+
+.contact-form-section {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 0 4%;
+}
+
+.left,
+.right {
+  flex: 1;
+  min-width: 280px;
+}
+
+.left .info-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  color: var(--color-text);
+}
+
+.left .icon {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  border-radius: 50%;
+  padding: 0.75rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  height: 80px;
+}
+
+.left h2 {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.left p {
+  margin: 0;
+  color: var(--color-text);
+}
+
+.right {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  padding: 2rem;
+  flex: 1;
+}
+
+.right h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.right input,
+.right textarea {
+  border: none;
+  border-bottom: 3px solid var(--color-bg);
+  padding: 0.75rem 0;
+  font-size: 1rem;
+  background-color: transparent;
+  outline: none;
+}
+
+.right textarea {
+  resize: vertical;
+  min-height: 50px;
+}
+
+.right button[type="submit"] {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.right button[type="submit"]:hover {
+  background-color: var(--button-bg-hover);
+}
+
+.thank-you {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--color-accent);
+}

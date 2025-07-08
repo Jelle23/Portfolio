@@ -13,11 +13,11 @@ export class HeroComponent {
 
   linkedinUrl = 'https://www.linkedin.com/in/jelle-vandebroek-b00415176/';
   githubUrl = 'https://github.com/Jelle23';
-  cvUrl = 'assets/cv.pdf';
+  cvUrl = 'assets/images/CV.pdf';
 
   linkedinIcon = 'assets/images/linkedin.png';
   githubIcon = 'assets/images/github.png';
-  cvIcon = 'assets/icons/cv.svg';
+  cvIcon = 'assets/images/cv.png';
   
   scrollToProjects() {
     document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });

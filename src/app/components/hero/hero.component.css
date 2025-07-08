@@ -66,6 +66,10 @@
   transform: scale(1.1);
 }
 
+.hero-actions a p {
+  text-align: ;
+}
+
 button {
   padding: 0.6rem 1.2rem;
   background-color: var(--primary-color);

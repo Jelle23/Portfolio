@@ -1,1 +1,45 @@
-<p>contact works!</p>
+<section id="contact" class="contact">
+    <div class="contact-container">
+        <h2>{{ 'contact.title' | translate }}</h2>
+        <p>{{ 'contact.description' | translate }}</p>
+
+        <div class="contact-form-section">
+            <div class="left">
+                <div class="info-block">
+                    <div class="icon"><i class="fas fa-home"></i></div>
+                    <div>
+                    <h2>{{ 'contact.address.title' | translate }}</h2>
+                    <p>{{ 'contact.address.street' | translate }}</p>
+                    <p>{{ 'contact.address.country' | translate }}</p>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                    <div>
+                    <h2>{{ 'contact.phone.title' | translate }}</h2>
+                    <p>{{ 'contact.phone.number' | translate }}</p>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                    <h2>{{ 'contact.email.title' | translate }}</h2>
+                    <p>{{ 'contact.email.address' | translate }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <h1>Send Message</h1>
+                <form (ngSubmit)="onSubmit()">
+                    <input type="text" [attr.placeholder]="'contact.fullname' | translate" [(ngModel)]="name" name="name" required>
+                    <input type="email" [attr.placeholder]="'contact.emailaddress' | translate" [(ngModel)]="email" name="email" required>
+                    <textarea [attr.placeholder]="'contact.message' | translate" [(ngModel)]="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
