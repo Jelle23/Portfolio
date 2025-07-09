@@ -12,6 +12,7 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
+  protected formspree = "https://formspree.io/f/mvgrjyvr";
   name = '';
   email = '';
   message = '';

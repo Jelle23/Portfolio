@@ -33,10 +33,10 @@
 
             <div class="right">
                 <h1>Send Message</h1>
-                <form (ngSubmit)="onSubmit()">
-                    <input type="text" [attr.placeholder]="'contact.fullname' | translate" [(ngModel)]="name" name="name" required>
-                    <input type="email" [attr.placeholder]="'contact.emailaddress' | translate" [(ngModel)]="email" name="email" required>
-                    <textarea [attr.placeholder]="'contact.message' | translate" [(ngModel)]="message" name="message" required></textarea>
+                <form action="{{ formspree }}" method="POST">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
                     <button type="submit">Send</button>
                 </form>
             </div>
