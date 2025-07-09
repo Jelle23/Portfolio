@@ -158,3 +158,78 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 2rem 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .project-card {
+    padding: 16px;
+  }
+
+  .project-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .tech-list li {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+
+  .modal {
+    padding: 20px;
+  }
+
+  .modal h2 {
+    font-size: 1.5rem;
+  }
+
+  .modal p {
+    font-size: 0.95rem;
+  }
+
+  .modal a {
+    padding: 8px 12px;
+    font-size: 0.95rem;
+  }
+
+  .modal button {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .projects {
+    padding: 3rem 1.5rem;
+    height: auto; /* Let it grow based on content */
+  }
+
+  .project-header h2,
+  .modal h2 {
+    font-size: 1.75rem;
+  }
+
+  .projects h2 {
+    font-size: 2rem;
+  }
+
+  .modal {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .modal img {
+    width: 100%;
+  }
+}

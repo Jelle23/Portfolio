@@ -125,3 +125,125 @@
   font-size: 1.1rem;
   color: var(--color-accent);
 }
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 2rem 1rem;
+  }
+
+  .contact h2 {
+    font-size: 1.75rem;
+  }
+
+  .contact p {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .left .info-block {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .left .icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+
+  .left h2 {
+    font-size: 1rem;
+  }
+
+  .right {
+    padding: 1.5rem;
+  }
+
+  .right h1 {
+    font-size: 1.1rem;
+  }
+
+  .right input,
+  .right textarea {
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+  }
+
+  .right button[type="submit"] {
+    font-size: 0.9rem;
+    padding: 0.9rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    padding: 3rem 1.5rem;
+    height: auto;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .contact-form-section {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    flex: unset;
+  }
+
+  /* 👇 Make left side info-blocks appear in a row */
+  .left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+
+  .left .info-block {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .left .icon {
+    min-width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+
+  .left h2 {
+    font-size: 1rem;
+  }
+
+  .right {
+    padding: 2rem;
+  }
+
+  .right h1 {
+    font-size: 1.3rem;
+  }
+
+  .right input,
+  .right textarea {
+    font-size: 0.95rem;
+  }
+
+  .right button[type="submit"] {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+}

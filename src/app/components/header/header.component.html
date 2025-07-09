@@ -19,7 +19,6 @@
 
     <!-- Language Toggle -->
     <div class="language-dropdown">
-      <label for="language-select" class="label">Select language</label>
       <select id="language-select" [value]="currentLang" (change)="onLanguageChange($event)">
         <option *ngFor="let lang of availableLanguages" [value]="lang">
           {{ lang.toUpperCase() }}

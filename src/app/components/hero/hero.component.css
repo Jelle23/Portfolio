@@ -67,7 +67,7 @@
 }
 
 .hero-actions a p {
-  text-align: ;
+  text-align: left;
 }
 
 button {
@@ -81,4 +81,69 @@ button {
 
 button:hover {
   background-color: var(--button-bg-hover);
+}
+
+/* Mobile: Smaller image, more compact text */
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+
+  .hero-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-actions a img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* Tablet: Stack image and text vertically */
+@media (max-width: 1024px) {
+  .hero {
+    width: 100%;
+  }
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.75rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }

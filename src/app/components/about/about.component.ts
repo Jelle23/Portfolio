@@ -94,14 +94,17 @@ export class AboutComponent implements OnInit {
   }
 
   private createMindMap(): void {
-    const width = 1200;
+    const container = this.mindMapRef.nativeElement;
+    const width = container.clientWidth;
     const height = 400;
 
     const svg = d3
-      .select(this.mindMapRef.nativeElement)
+      .select(container)
       .append('svg')
-      .attr('width', width)
-      .attr('height', height);
+      .attr('width', '100%')
+      .attr('height', height)
+      .attr('viewBox', `0 0 ${width} ${height}`)
+      .attr('preserveAspectRatio', 'xMidYMid meet');
 
     const simulation = d3
       .forceSimulation<SkillNode>(this.skills)
