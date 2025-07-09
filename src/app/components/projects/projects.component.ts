@@ -40,7 +40,7 @@ export class ProjectsComponent {
       title: 'projects.U6-Trainer.title',     
       description: 'projects.U6-Trainer.description',
       tech: ['Angular', 'TypeScript', 'HTML', 'CSS', 'LocalStorage'],
-      imageUrl: '',
+      imageUrl: 'assets/images/U6-trainer.png',
       modalDescription: 'projects.U6-Trainer.modalDescription',
       githubUrl: 'https://github.com/Jelle23/U6-Trainer.git',
     },
