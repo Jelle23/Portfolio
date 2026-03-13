@@ -52,6 +52,14 @@ export class ProjectsComponent {
       modalDescription: 'projects.Graduaatsproef.modalDescription',
       githubUrl: 'https://github.com/Jelle23/Graduaatsproef.git',
     },
+    {
+      title: 'projects.GreenSpoon.title',
+      description: 'projects.GreenSpoon.description',
+      tech: ["Vue.js", "JavaScript", "HTML", "CSS", "Axios", "MockAPI", "Google Maps Embed"],
+      imageUrl: 'assets/images/TheGreenSpoon.png',
+      modalDescription: 'projects.GreenSpoon.modalDescription',
+      githubUrl: 'https://github.com/Jelle23/TheGreenSpoon.git',
+    },
  ];
 
   selectedProject: Project | null = null;

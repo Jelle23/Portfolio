@@ -44,7 +44,7 @@
     "Premiere Pro": "Premiere Pro",
     "Personal": "Persoonlijk",
     "U6 Coach": "U6-ploeg trainer",
-    "Leeftijd": "22 jaar",
+    "Leeftijd": "23 jaar",
     "Koersel": "Koersel"
   },
 
@@ -76,6 +76,11 @@
       "description": "Een fullstack webapplicatie ontwikkeld in Blazor WebAssembly als afstudeerproject, met focus op componentstructuur, REST-communicatie en .NET-integratie.",
       "modalDescription": "Voor mijn graduaatsproef ontwikkelde ik een webapplicatie met Blazor WebAssembly. Het project toont hoe frontendcomponenten in Blazor efficiënt samenwerken met een .NET-backend via REST-API’s. Functionaliteiten omvatten onder meer gebruikersbeheer, data-invoer en livevalidatie. Dit project illustreert mijn vaardigheden met moderne .NET-technologieën en mijn vermogen om schaalbare, maintainable oplossingen te bouwen binnen een fullstack .NET-ecosysteem."
     },
+    "GreenSpoon": {
+    "title": "The Green Spoon",
+    "description": "Een modern restaurantwebsite-concept met een dynamisch menu, een reservatieformulier en een layout die het idee van The Green Spoon op een cleane en aantrekkelijke manier presenteert.",
+    "modalDescription": "Deze website werd gemaakt als een conceptueel restaurantplatform voor The Green Spoon, een fictief merk dat ik zelf heb bedacht om het bouwen van een volledig frontendproject te oefenen. Het doel was om een realistische restaurantwebsite te simuleren met een strak design en een vlotte gebruikerservaring. Het project werd ontwikkeld met Vue.js in een componentgebaseerde structuur, waardoor onderdelen zoals het menu, de features en het contactformulier modulair en herbruikbaar blijven. De menugegevens worden dynamisch geladen via MockAPI, dat fungeert als een lichte backend waar gerechten kunnen worden opgeslagen en opgehaald via een REST API. Axios wordt gebruikt voor de communicatie met de API. De interface focust op responsieve layouts, herbruikbare componenten en een duidelijke visuele hiërarchie zodat bezoekers eenvoudig het menu kunnen bekijken en met het reservatieformulier kunnen interageren. De stack bestaat uit Vue.js, JavaScript, HTML en CSS, waarbij MockAPI wordt gebruikt om een backendomgeving te simuleren."
+    },
     "modal": {
       "close": "Sluiten"
     }
@@ -94,7 +99,7 @@
     },    
     "phone": {
       "title": "Telefoon",
-      "number": "04 70 08 14 74"
+      "number": "0470 08 14 74"
     },
     "email": {
       "title": "Email",

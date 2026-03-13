@@ -44,7 +44,7 @@
     "Premiere Pro": "Premiere Pro",
     "Personal": "Personal",
     "U6 Coach": "U6 Coach",
-    "Leeftijd": "22 years",
+    "Leeftijd": "23 years",
     "Koersel": "Koersel"
   },
 
@@ -76,6 +76,11 @@
       "description": "A full-stack web application developed in Blazor WebAssembly as a graduation project, focused on component architecture, REST communication, and .NET integration.",
       "modalDescription": "For my graduation project, I developed a web application using Blazor WebAssembly. The project demonstrates how frontend components in Blazor efficiently communicate with a .NET backend via REST APIs. Features include user management, data entry, and live validation. This project showcases my skills with modern .NET technologies and my ability to build scalable, maintainable solutions within a full-stack .NET ecosystem."
     },
+    "GreenSpoon": {
+      "title": "The Green Spoon",
+      "description": "A modern restaurant website concept featuring a dynamic menu, reservation form, and layout designed to present The Green Spoon idea in a clean and engaging way.",
+      "modalDescription": "This website was created as a conceptual restaurant platform for The Green Spoon, a fictional brand I came up with to practice building a complete frontend project. The goal was to simulate a real-world restaurant website with a clean design and smooth user experience. The project was developed using Vue.js with a component-based structure, allowing sections such as the menu, features, and contact form to remain modular and reusable. Menu data is dynamically loaded using MockAPI, which acts as a lightweight backend where dishes can be stored and retrieved through a REST API. Axios is used for the API communication. The interface focuses on responsive layouts, reusable components, and a clear visual hierarchy so visitors can easily explore the menu and interact with the reservation form. The stack includes Vue.js, JavaScript, HTML, and CSS, with MockAPI used to simulate a backend environment."
+    },
     "modal": {
       "close": "Close"
     }
@@ -93,7 +98,7 @@
     },
     "phone": {
       "title": "Phone",
-      "number": "04 70 08 14 74"
+      "number": "0470 08 14 74"
     },
     "email": {
       "title": "Email",

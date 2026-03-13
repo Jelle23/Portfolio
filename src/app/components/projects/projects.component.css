@@ -4,7 +4,7 @@
   padding: 4rem 2rem;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: auto;
 }
 
 .projects-container {
